@@ -5,12 +5,4 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
 })
-export class AppComponent {
-  title = 'recipe-app';
-
-  currentPage: string = 'recipes';
-
-  onChangePage(page: string) {
-    this.currentPage = page;
-  }
-}
+export class AppComponent {}
